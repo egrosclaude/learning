@@ -16,7 +16,7 @@ Para este ejemplo utilizamos la base de Iris (Fisher, 1936) https://archive.ics.
     5.8,2.8,5.1,2.4,Iris-virginica
     6.4,3.2,5.3,2.3,Iris-virginica
 
-El problema de aprendizaje es de regresión y postulamos un modelo lineal. Es decir, buscamos inferir pesos W tales que Z = W X donde X es la matriz de características de los ejemplos, y Z aproxime la clasificación verdadera Y.
+El problema de aprendizaje es de regresión y postulamos un modelo lineal. Es decir, buscamos inferir pesos W tales que Ŷ = W X donde X es la matriz de características de los ejemplos, y Ŷ aproxime la clasificación verdadera Y.
 
 Para encontrar W definimos una función de error que vamos a minimizar:
 
