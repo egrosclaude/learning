@@ -28,5 +28,7 @@ Planteamos igualar a 0 el vector de derivadas parciales de E con respecto a cada
 
 \begin{equation*}\nabla_w{E}=0\end{equation*}
 
-\begin{equation*}\nabla_w{\frac{1}{m}\|\hat{y} - y\|^2_2=0\end{equation*}
+\begin{equation*}\nabla_w{\frac{1}{m}\|\hat{y} - y\|^2_2}=0\end{equation*}
+
+\begin{equation*}\frac{1}{m}\nabla_w{\|\Xw - y\|^2_2}=0\end{equation*}
 
