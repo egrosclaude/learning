@@ -78,4 +78,7 @@ La opción `-c` aplica los pesos proporcionados a la clasificación de ejemplos 
     ./ml -c < VALID
     ./ml -c -w=PESOS2 (y se tipean las tuplas de características). 
 
+# Bibliografía
+
+http://www.deeplearningbook.org/contents/ml.html
 
