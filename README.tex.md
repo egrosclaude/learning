@@ -67,6 +67,15 @@ Una vez logrado un conjunto de pesos, se puede evaluar la calidad del aprendizaj
 ### Ejemplos
 
     ./ml -v -d < VALID
+
+    for i in 0.2 0.4 0.6 0.8; do
+    > ./ml -l -t=$i < iris.data
+    > ./ml -v < VALID
+    > done
+    Clasificados OK 108 de 123 (87.80 %)
+    Clasificados OK 74 de 86 (86.05 %)
+    Clasificados OK 53 de 62 (85.48 %)
+    Clasificados OK 27 de 30 (90.00 %)
 	
 
 ## Clasificación
