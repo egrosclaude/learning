@@ -30,5 +30,5 @@ Planteamos igualar a 0 el vector de derivadas parciales de E con respecto a cada
 
 <p align="center"><img src="/tex/acb1976c116edef5fd693214c3bcec52.svg?invert_in_darkmode&sanitize=true" align=middle width=134.05747079999998pt height=32.990165999999995pt/></p>
 
-<p align="center"><img src="/tex/ac54a9fc85bb78d0d3279bf840629e9d.svg?invert_in_darkmode&sanitize=true" align=middle width=123.43567335pt height=32.990165999999995pt/></p>
+<p align="center"><img src="/tex/78e264dae496f3cc660a61fbda9489c4.svg?invert_in_darkmode&sanitize=true" align=middle width=150.5551476pt height=32.990165999999995pt/></p>
 
