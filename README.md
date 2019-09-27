@@ -24,7 +24,7 @@ Para encontrar <img src="/tex/84c95f91a742c9ceb460a83f9b5090bf.svg?invert_in_dar
 
 <p align="center"><img src="/tex/8b6de22ec658a2615de5252e1968274d.svg?invert_in_darkmode&sanitize=true" align=middle width=113.7586659pt height=32.990165999999995pt/></p>
 
-Planteamos igualar a 0 el vector de derivadas parciales de E con respecto a cada <img src="/tex/c2a29561d89e139b3c7bffe51570c3ce.svg?invert_in_darkmode&sanitize=true" align=middle width=16.41940739999999pt height=14.15524440000002pt/>, de manera de convertir el problema en uno de optimización.
+Planteamos igualar a 0 el vector de derivadas parciales de E con respecto a cada <img src="/tex/c2a29561d89e139b3c7bffe51570c3ce.svg?invert_in_darkmode&sanitize=true" align=middle width=16.41940739999999pt height=14.15524440000002pt/>.
 
 <p align="center"><img src="/tex/5888e539dd8246d65b14f037eb9ba49d.svg?invert_in_darkmode&sanitize=true" align=middle width=67.5589002pt height=13.698590399999999pt/></p>
 
@@ -33,3 +33,10 @@ Planteamos igualar a 0 el vector de derivadas parciales de E con respecto a cada
 <p align="center"><img src="/tex/78e264dae496f3cc660a61fbda9489c4.svg?invert_in_darkmode&sanitize=true" align=middle width=150.5551476pt height=32.990165999999995pt/></p>
 
 <p align="center"><img src="/tex/fd2200b3604e37dc3266cd34f549c618.svg?invert_in_darkmode&sanitize=true" align=middle width=202.12300349999998pt height=18.7598829pt/></p>
+
+<p align="center"><img src="/tex/dec0e578aaf655ad7b974087a8429872.svg?invert_in_darkmode&sanitize=true" align=middle width=274.747869pt height=18.7598829pt/></p>
+
+<p align="center"><img src="/tex/d669a19aa0935129cc2baffee4817496.svg?invert_in_darkmode&sanitize=true" align=middle width=152.96368725pt height=17.8466442pt/></p>
+
+<p align="center"><img src="/tex/fb8c2c21b54a75e4772e8e81d944e398.svg?invert_in_darkmode&sanitize=true" align=middle width=138.64877729999998pt height=18.7598829pt/></p>
+
