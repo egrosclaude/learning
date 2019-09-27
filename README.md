@@ -22,5 +22,5 @@ Para encontrar W definimos una función de error que vamos a minimizar:
 
 <p align="center"><img src="/tex/2196a0cd525cc946fd0cec03f6e31d49.svg?invert_in_darkmode&sanitize=true" align=middle width=136.58967959999998pt height=41.10931275pt/></p>
 
-<p align="center"><img src="/tex/0ad850a375231b5bd435ac033ababdd2.svg?invert_in_darkmode&sanitize=true" align=middle width=136.6822248pt height=32.990165999999995pt/></p>
+<p align="center"><img src="/tex/f3466d3afcae760dd66a758161883f45.svg?invert_in_darkmode&sanitize=true" align=middle width=120.24380609999999pt height=32.990165999999995pt/></p>
 
