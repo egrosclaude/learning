@@ -54,7 +54,8 @@ sub pesos {
 	$W = $W2->multiply($W3);
 	debug("W=(X * Xt)^-1 * Xt * Y", $W);
 
-	open W, ">PESOS";
+    	$pesos = "$w" || "PESOS"; 
+	open W, ">$pesos";
 	printf W $W;
 	close W;
 }
