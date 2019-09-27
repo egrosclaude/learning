@@ -16,13 +16,14 @@ Para este ejemplo utilizamos la base de Iris (Fisher, 1936) https://archive.ics.
     5.8,2.8,5.1,2.4,Iris-virginica
     6.4,3.2,5.3,2.3,Iris-virginica
 
-El problema de aprendizaje es de regresión. Postulamos un modelo lineal. Es decir, buscamos inferir pesos W tales que Z = W X donde X es la matriz de características de los ejemplos, y Z aproxime la clasificación verdadera Y.
+El problema de aprendizaje es de regresión y postulamos un modelo lineal. Es decir, buscamos inferir pesos W tales que Z = W X donde X es la matriz de características de los ejemplos, y Z aproxime la clasificación verdadera Y.
 
 Para encontrar W definimos una función de error que vamos a minimizar:
 
-\begin{equation}E=\frac{1}{m}\sum_i(\hat{y} - y)^2_i\end{equation}
+\begin{equation*}E=\frac{1}{m}\sum_i(\hat{y} - y)^2_i\end{equation*}
 
-The state variables for the CartPole was the following: \begin{equation} \begin{bmatrix} x & \dot{x} & \theta & \dot{\theta} & L & m & M \end{bmatrix} \end{equation}
 
-The actions alowed was choosen from the force vector: \begin{equation} \label{forces} F = \begin{bmatrix} -300 & -200 & -100 & 0 & 100 & 200 & 300 \end{bmatrix} N. \end{equation}
+En notación matricial, 
+
+\begin{equation*}E=\frac{1}{m}\norm{\hat{y} - y)}^2_2\end{equation*}
 
