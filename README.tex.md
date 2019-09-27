@@ -22,5 +22,5 @@ Para encontrar W definimos una función de error que vamos a minimizar:
 
 \begin{equation*}E=\frac{1}{m}\sum_i(\hat{y} - y)^2_i\end{equation*}
 
-\begin{equation*}E=\frac{1}{m} \|\|\hat{y} - y\|\|^2_2i \end{equation*}
+\begin{equation*}E=\frac{1}{m} \|\hat{y} - y\|^2_2i \end{equation*}
 
