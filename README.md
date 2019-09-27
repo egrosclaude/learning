@@ -48,7 +48,7 @@ Con la opción `-l`, el programa lee una base de ejemplos e induce los pesos <im
 
 Como resultado del aprendizaje, graba un archivo llamado PESOS conteniendo el vector <img src="/tex/84c95f91a742c9ceb460a83f9b5090bf.svg?invert_in_darkmode&sanitize=true" align=middle width=17.80826024999999pt height=22.465723500000017pt/> de pesos aprendido, que se utilizará en las etapas siguientes.
 
-Se puede limitar el aprendizaje a un subconjunto de la base, de modo de contar con un conjunto de entrenamiento y uno de validación. Para esto se puede utilizar la opción -t=<tasa> que define la propoción de ejemplos de la base que serán utilizados en la fase de aprendizaje. El resto de los ejemplos, no considerados durante el aprendizaje, será grabado en el archivo VALID para ser utilizado en las fases siguientes.
+Se puede limitar el aprendizaje a un subconjunto de la base, de modo de contar con un conjunto de entrenamiento y uno de validación. Para esto se puede utilizar la opción -t=<tasa> que define la proporción de ejemplos de la base que serán utilizados en la fase de aprendizaje. El resto de los ejemplos, no considerados durante el aprendizaje, será grabado en el archivo VALID para ser utilizado en las fases siguientes.
 
 La opción -t define la proporción entre cantidades de ejemplos de entrenamiento y de validación en forma aleatoria y no exacta. Por ejemplo, `-t=0.4` implica que se desea dividir la base en un 40% para entrenamiento y un 60% para validación. Al leer la base durante el aprendizaje, para cada ejemplo se generará un número aleatorio `v`. Si `v` es menor o igual que 0.4, el ejemplo será considerado durante el aprendizaje. En caso contrario, no se considerará para el aprendizaje y será grabado en el conjunto de validación VALID.
 
