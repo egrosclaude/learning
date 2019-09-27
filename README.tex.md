@@ -24,7 +24,7 @@ Para encontrar $W$ definimos una función de error $E:\mathbb{R}^m\times\mathbb{
 
 \begin{equation*}E=\frac{1}{m} \|\hat{y} - y\|^2_2\end{equation*}
 
-Planteamos igualar a 0 el vector de derivadas parciales de E con respecto a cada $w_i$, de manera de convertir el problema en uno de optimización.
+Planteamos igualar a 0 el vector de derivadas parciales de E con respecto a cada $w_i$.
 
 \begin{equation*}\nabla_w{E}=0\end{equation*}
 
@@ -33,3 +33,10 @@ Planteamos igualar a 0 el vector de derivadas parciales de E con respecto a cada
 \begin{equation*}\frac{1}{m}\nabla_w{\|Xw - y\|^2_2}=0\end{equation*}
 
 \begin{equation*}\nabla_w(Xw-y)^T(Xw-y)=0\end{equation*}
+
+\begin{equation*}\nabla_w(w^TX^TXw-2w^TX^Ty+y^Ty)=0\end{equation*}
+
+\begin{equation*}2X^TXw-2X^Ty=0\end{equation*}
+
+\begin{equation*}w = (X^TX)^{-1}X^Ty\end{equation*}
+
