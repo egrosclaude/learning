@@ -24,3 +24,7 @@ Para encontrar W definimos una función de error que vamos a minimizar:
 
 <p align="center"><img src="/tex/f3466d3afcae760dd66a758161883f45.svg?invert_in_darkmode&sanitize=true" align=middle width=120.24380609999999pt height=32.990165999999995pt/></p>
 
+Planteamos igualar a 0 el vector de derivadas parciales de E con respecto a cada <img src="/tex/9fc20fb1d3825674c6a279cb0d5ca636.svg?invert_in_darkmode&sanitize=true" align=middle width=14.045887349999989pt height=14.15524440000002pt/>, de manera de convertir el problema en uno de optimización.
+
+<p align="center"><img src="/tex/91b6059f85860e09137e676b3bb8bb4d.svg?invert_in_darkmode&sanitize=true" align=middle width=56.917688850000005pt height=11.232861749999998pt/></p>
+
