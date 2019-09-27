@@ -18,7 +18,7 @@ Para este ejemplo utilizamos la base de Iris (Fisher, 1936) https://archive.ics.
 
 El problema de aprendizaje es de regresión y postulamos un modelo lineal. Es decir, buscamos inferir pesos $W$ tales que $\hat{Y} = WX$ donde $X$ es la matriz de características de los ejemplos, e $\hat{Y}$ aproxime la clasificación verdadera $Y$.
 
-Para encontrar $W$ definimos una función de error $E:\R^m\times\R^m\rarrow\R$ que vamos a minimizar:
+Para encontrar $W$ definimos una función de error $E:\mathbb{R}^m\times\mathbb{R}^m\rarrow\mathbb{R}$ que vamos a minimizar:
 
 \begin{equation*}E=\frac{1}{m}\sum_i(\hat{y} - y)^2_i\end{equation*}
 
